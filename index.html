@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Reservas MI NEGOCIO</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <form action="" class="formulario">
+      <img src="logo.png" class="imgLogo" />
+
+      <h1 class="formulario__titulo">Instituto Yavirac</h1>
+      <h3 class="formulario__subtitulo">Reservas</h3>
+       <label for="fecha" class="formulario__label"
+        >Reserva tu Laboratorio</label>
+        <br><br>
+        <label for="empleado" class="formulario__label"
+        >Dias Disponibles</label
+      >
+      <select id="empleado" name="listaempleados" class="formulario__input">
+        <option>Lunes</option>
+        <option>Martes</option>
+        <option>Miercoles</option>
+        <option>Jueves</option>
+        <option>Viernes</option>
+      </select>
+      <label for="empleado" class="formulario__label"
+        >Cuantas semanas</label
+      >
+      <select id="empleado" name="listaempleados" class="formulario__input">
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+       </select>
+
+      <label for="empleado" class="formulario__label"
+        >Laboratorio</label
+      >
+      <select id="empleado" name="listaempleados" class="formulario__input">
+        <option>Laboratorio 1</option>
+        <option>Laboratorio 2 </option>
+      </select>
+
+      <label for="servicio" class="formulario__label"
+        >Horarios Disponibles</label
+      >
+      <select id="servicio" name="listaservicios" class="formulario__input">
+        <option>8-10am</option>
+        <option>10-12pm</option>
+        <option>13pm-15pm</option>
+        <option>15pm-17pm</option>
+        <option></option>
+      </select>
+    <div id="respuesta"></div>
+
+      <button id="submit" class="formulario__submit"><a href="reserva.html">Reservar</a></button>
+    </form>
+    
+  </body>
+</html>
